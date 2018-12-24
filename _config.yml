@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "contrast" #"default", "air", "aqua", "dark", "dirt",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Portfolio"
 title_separator          : "-"
 name                     : "Portfolio"
 description              : "An amazing website."
