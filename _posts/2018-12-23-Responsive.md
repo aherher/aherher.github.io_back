@@ -1,6 +1,6 @@
-<link rel="stylesheet" type="text/css" href="../css/test.css" />
-<h2>반응형</h2>
-# 디파트
+<link rel="stylesheet" type="text/css" href="../css/post.css" />
+# 반응형
+<h2>디파트</h2>
 URL  : <a href="http://www.diipart.com" target="_blank">http://www.diipart.com</a>
 타입 : 반응형
 참여인원 : 디자인1/퍼블리셔1/백엔드1
