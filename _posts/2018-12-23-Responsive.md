@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="test.css" />
 ### 반응형
-<h2 style="color:#fff;">테스트</h2>
+<h2>테스트</h2>
 <p>테스트</p>
 <a href="http://www.naver.com">링크</a>
