@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="aherher.github.io/css/test.css" />
+<link rel="stylesheet" type="text/css" href="../css/test.css" />
 ### 반응형
 <h2>테스트</h2>
 <p>테스트</p>
