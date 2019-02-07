@@ -52,12 +52,10 @@ author_profile: true
 <p><a style="text-decoration:none; color:#000 !important;" href="/sub/sub.md">링크</a></p>
 
 <script>
- $(".in_name").click(function (){
- $(".infos").slideUp(300);
- $(this).parent("li").find(".infos").slideDown(300);
- }); 
-  
 $(document).ready(function(e) {
-
+  $(".in_name").click(function (){
+  $(".infos").slideUp(300);
+  $(this).parent("li").find(".infos").slideDown(300);
+ }); 
 });
 </script>
