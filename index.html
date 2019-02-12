@@ -83,7 +83,7 @@ author_profile: true
 <script>
 $(document).ready(function(e) {
   $(".in_name").click(function (){
-   if($(this).find(".infos").css("display") == "none"){
+   if($(this).parent("li").find(".infos").css("display") == "none"){
      $(".infos").slideUp(300);
      $(this).parent("li").find(".infos").slideDown(300);
       };
