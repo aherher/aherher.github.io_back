@@ -83,8 +83,10 @@ author_profile: true
 <script>
 $(document).ready(function(e) {
   $(".in_name").click(function (){
-  $(".infos").slideUp(300);
-  $(this).parent("li").find(".infos").slideDown(300);
+   if($(this).find("infos").css("display") == "none"){
+     $(".infos").slideUp(300);
+     $(this).parent("li").find(".infos").slideDown(300);
+      };
  }); 
 });
 </script>
