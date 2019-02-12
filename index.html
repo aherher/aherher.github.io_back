@@ -78,14 +78,14 @@ author_profile: true
   </li>
 </ul>
 
-<p><a style="text-decoration:none; color:#000 !important;" href="/sub/sub.md">링크</a></p>
-
 <script>
 $(document).ready(function(e) {
   $(".in_name").click(function (){
    if($(this).parent("li").find(".infos").css("display") == "none"){
      $(".infos").slideUp(300);
      $(this).parent("li").find(".infos").slideDown(300);
+      } else {
+       $(".infos").slideUp(300);
       };
  }); 
 });
