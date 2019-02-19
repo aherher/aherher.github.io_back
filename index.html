@@ -9,8 +9,9 @@ author_profile: true
   .list_title {font-size:25px; font-weight:700; color:#000;}
   
   .the_list {padding:0; margin:0; border-top:3px solid #333; border-bottom:1px solid #ddd;}
-  .the_list > li {list-style:none; border-top:1px solid #ddd; padding:15px; margin:0; color:#333; background:url('images/open_li.png') no-repeat center right 20px;}
-  .the_list > .the_close {background:url('images/close_li.png') no-repeat center right 20px;} 
+  .the_list > li {list-style:none; border-top:1px solid #ddd; padding:15px; margin:0; color:#333; 
+    background:url('images/open_li.png') no-repeat center right 20px; background-size:24px;}
+  .the_list > .the_close {background:url('images/close_li.png') no-repeat center right 20px; background-size:24px;} 
   .the_list > li .in_name {padding:0; margin:0; height:35px; line-height:35px; font-size:20px; font-weight:700; cursor:pointer; color:#333;}
   .the_list > li a {color:#333; color:#006fcd;}
   .infos {line-height:1; margin-top:20px; width:100%; display:none; padding:0 0 0 20px;}
@@ -21,11 +22,13 @@ author_profile: true
   .infos li .td {color:#888; padding-left:20px;}
   
   .tabs {overflow:hidden; padding:0; width:100%;}
-  .tabs li {width:20%; height:50px; line-height:50px; text-align:center; box-sizing:border-box; border:1px solid #ddd; border-right:none; float:left; list-style:none;}
-  .tabs li:last-child {border-right:1px solid #ddd;}
-  .tabs li a {display:block; font-size:15px; color:#333;}
-  .tabs .tab_on {background-color:#ff8813;}
-  .tabs .tab_on a {color:#fff;}
+  .tabs li {width:20%; height:50px; line-height:50px; text-align:center; box-sizing:border-box; /*border:1px solid #ddd; border-right:none;*/ float:left; list-style:none;}
+  /*.tabs li:last-child {border-right:1px solid #ddd;}*/
+  .tabs li a {display:block; font-size:15px; color:#ddd;}
+  .tabs .tab_on {border-bottom:3px solid #333;}
+  .tabs .tab_on a {color:#000;}
+  /*.tabs .tab_on {background-color:#ff8813;}
+  .tabs .tab_on a {color:#fff;}*/
   
 </style>
 <h2 class="page__title">포트폴리오</h2>
