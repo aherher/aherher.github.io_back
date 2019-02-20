@@ -358,9 +358,9 @@ author_profile: true
 </div>
 
 <script>
-$(document).ready(function(e) {
-  return false;
+$(document).ready(function(e) { 
    $(".tabs li a").click(function (){
+    return false; 
     $(".the_wraps").hide();
     $($(this).attr("href")).show();
     
