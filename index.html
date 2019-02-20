@@ -359,13 +359,14 @@ author_profile: true
 
 <script>
 $(document).ready(function(e) {
+  return false;
    $(".tabs li a").click(function (){
     $(".the_wraps").hide();
     $($(this).attr("href")).show();
     
     $(".tabs li").removeClass("tab_on");
     $(this).parent("li").addClass("tab_on");
-    return false;
+    
     });  
     
     
