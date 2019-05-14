@@ -1,0 +1,71 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 시작 -->
+
+<div class="contents">
+  <div class="sub_top">
+    <h2>
+      <p class="bh2">고객센터</p>
+    </h2>
+  </div>
+  <!-- 서브 탭 -->
+  <? include "subtabs.html"; ?>
+  <script>
+   $(document).ready(function(e) {
+    $(".tabs > li").eq(3).addClass("on");    
+});
+  </script> 
+  <!-- 서브 탭 끝 -->
+  <div class="center_box sub_cont"> 
+     <!-- 게시판 시작 -->
+        <link rel="stylesheet" type="text/css" href="../css/board.css" />
+      <div class="board_wrap"> 
+        <!-- 게시판 쓰기 영역 -->
+        <form id="board_write">
+          <table class="the_write">
+            <tbody>
+              <tr>
+                <th>공지글</th>
+                <td><input type="checkbox" id="not_check">
+                  <label for="not_check" class="chk_lab">※ 상단에 위치시킬 공지글인 경우 체크해 주세요.</label></td>
+              </tr>
+              <tr>
+                <th>제목</th>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <th>내용</th>
+                <td><textarea class="board_text"></textarea></td>
+              </tr>
+              <tr>
+                <th>첨부파일1</th>
+                <td><div class="finputupload">
+                    <input title="File Route1" id="file_route1" type="text" readonly>
+                    <label for="hy_file1"> 파일찾기
+                      <input name="hy_file1" id="hy_file1" onchange="javascript:document.getElementById('file_route1').value=this.value" type="file">
+                    </label>
+                  </div></td>
+              </tr>
+              <tr>
+                <th>첨부파일2</th>
+                <td><div class="finputupload">
+                    <input title="File Route2" id="file_route2" type="text" readonly>
+                    <label for="hy_file2"> 파일찾기
+                      <input name="hy_file1" id="hy_file2" onchange="javascript:document.getElementById('file_route1').value=this.value" type="file">
+                    </label>
+                  </div></td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+        <!-- 게시판 쓰기 끝 --> 
+         <ul class="admin_btns write_btns">
+          <li class="write_btn"><a href="#!">확인</a></li>
+          <li class="gadm_btn"><a href="#!">취소</a></li>
+        </ul>
+      </div>
+      <!-- 게시판 끝 -->      
+    
+  </div>
+</div>
+<!-- 내용 끝 -->
+<? include "../inc/footer.html"; ?>

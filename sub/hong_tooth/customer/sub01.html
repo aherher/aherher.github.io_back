@@ -1,0 +1,97 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 시작 -->
+<div class="contents">
+  <div class="sub_top">
+    <h2>
+      <p class="bh2">고객센터</p>
+    </h2>
+  </div>
+    <!-- 서브 탭 --> 
+  <? include "subtabs.html"; ?>
+   <script>
+   $(document).ready(function(e) {
+    $(".tabs > li").eq(0).addClass("on");    
+});
+  </script>
+  <!-- 서브 탭 끝 --> 
+<div class="center_box sub_cont">
+  <!-- 게시판 시작 -->
+    <link rel="stylesheet" type="text/css" href="../css/board.css" />
+    <div class="board_wrap"> 
+      <!-- 게시판 리스트 영역 -->
+      <table class="the_board">
+        <colgroup>
+        <col width="10%">
+        <col width="65%">
+        <col width="12%">
+        <col width="13%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th class="pc_br">번호</th>
+            <th>제목</th>
+            <th class="pc_br">글쓴이</th>
+            <th class="pc_br">작성일</th>
+          </tr>
+          <tr class="notice_line">
+            <td class="pc_br">공지</td>
+            <td class="onView"><a href="sub01_view.html"><span class="mob_not">[공지]</span> 공지사항 입니다.</a></td>
+            <td class="pc_br">관리자</td>
+            <td class="pc_br">2018.06.01</td>
+          </tr>
+          <tr>
+            <td class="pc_br">1</td>
+            <td class="onView"><a href="sub01_view.html">견적문의 입니다. <span class="new_board">N</span></a></td>
+            <td class="pc_br">AA한의원</td>
+            <td class="pc_br">2018.06.01</td>
+          </tr>
+          <tr>
+            <td class="pc_br">2</td>
+            <td class="onView"><a href="sub01_view.html">게시판 입니다.</a></td>
+            <td class="pc_br">김BB</td>
+            <td class="pc_br">2018.06.01</td>
+          </tr>
+          <tr>
+            <td class="pc_br">3</td>
+            <td class="onView"><a href="sub01_view.html">게시판 테스트</a></td>
+            <td class="pc_br">박BB</td>
+            <td class="pc_br">2018.06.01</td>
+          </tr>
+          <tr>
+            <td class="pc_br">4</td>
+            <td class="onView"><a href="sub01_pw.html"><span class="locked"><img src="img/lock.png" alt=""/></span>견적문의 입니다.</a></td>
+            <td class="pc_br">AA한의원</td>
+            <td class="pc_br">2018.06.01</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- 게시판 리스트 끝 --> 
+      <!-- 쓰기/관리 -->
+      <ul class="admin_btns">
+        <li class="write_btn"><a href="sub01_write.html">쓰기</a></li>
+        <li class="gadm_btn"><a href="#!">관리</a></li>
+      </ul>
+      <!-- 쓰기/ 관리 --> 
+      <!--페이저 시작-->
+      <div class="pager"><a class="board_front" href="#!"><img src="img/front_arr.png" alt=""/></a><a class="board_prev" href="#!"><img src="img/prev_arr.png" alt=""/></a><a class="page_on" href="#!">1</a><a href="#!">2</a><a href="#!">3</a><a href="#!">4</a><a class="board_next" href="#!"><img src="img/next_arr.png" alt=""/></a><a class="board_end" href="#!"><img src="img/end_arr.png" alt=""/></a></div>
+      <!-- 페이저 끝 --> 
+      <!-- 검색영역 시작 -->
+      <div class="board_src">
+        <form>
+          <select class="board_select">
+            <option>전체</option>
+            <option>제목</option>
+            <option>작성자</option>
+            <option>내용</option>
+          </select>
+          <input type="text" class="board_txtinput">
+          <a href="#!" class="board_scrBtn">검색</a>
+        </form>
+      </div>
+      <!-- 검색영역 끝 --> 
+    </div>
+    <!-- 게시판 끝 --> 
+</div>
+</div>
+<!-- 내용 끝 --> 
+<? include "../inc/footer.html"; ?>

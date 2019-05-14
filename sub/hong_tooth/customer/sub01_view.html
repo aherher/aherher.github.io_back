@@ -1,0 +1,54 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 시작 -->
+
+<div class="contents">
+  <div class="sub_top">
+    <h2>
+      <p class="bh2">고객센터</p>
+    </h2>
+  </div>
+  <!-- 서브 탭 -->
+  <? include "subtabs.html"; ?>
+  <script>
+   $(document).ready(function(e) {
+    $(".tabs > li").eq(0).addClass("on");    
+});
+  </script> 
+  <!-- 서브 탭 끝 -->
+  <div class="center_box sub_cont"> 
+    <!-- 게시판 시작 -->
+    <link rel="stylesheet" type="text/css" href="../css/board.css" />
+    <div class="board_wrap"> 
+      <!-- 게시물 영역 -->
+      <div class="board_view">
+        <div class="read_top">
+          <p class="read_title">견적문의 입니다.</p>
+          <p class="indate">2017-12-19 16:15:52</p>
+        </div>
+        <div class="board_read">
+          <p>게시판 입니다. 게시판 테스트 <br/>
+            견적문의 입니다.<br/>
+            <br/>
+            게시판 입니다. 게시판 테스트 <br/>
+            견적문의 입니다. <br/>
+            <br/>
+            게시판 입니다. 게시판 테스트 <br/>
+            견적문의 입니다. <br/>
+            <br/>
+            게시판 입니다. 게시판 테스트 <br/>
+            견적문의 입니다. </p>
+        </div>
+        <div class="other_reads">
+          <div class="prev_board bothers"><span>이전 글 <img src="img/up_arr.png" /></span><a href="#!">게시판 입니다.</a></div>
+          <div class="next_board bothers"><span>다음 글 <img src="img/down_arr.png" /></span><a href="#!">게시판 테스트 입니다.</a></div>
+        </div>
+      </div>
+      <!-- 게시물 끝 -->
+      <div class="board_liast"><a href="sub01.html">목록</a></div>
+    </div>
+    <!-- 게시판 끝 --> 
+    
+  </div>
+</div>
+<!-- 내용 끝 -->
+<? include "../inc/footer.html"; ?>

@@ -1,0 +1,49 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 시작 -->
+
+<div class="contents">
+  <div class="sub_top">
+    <h2>
+      <p class="bh2">로그인</p>
+    </h2>
+  </div>
+  <div class="center_box sub_cont"> 
+    <!-- 로그인 시작 -->
+    <link rel="stylesheet" type="text/css" href="css/member.css" />
+    <div class="member_wrap">
+      <p class="mem_title">아이디와 비밀번호를 입력해주세요.<br/>
+        아직 회원이 아니신 분들은 회원가입 후 서비스를 이용하실 수 있습니다.</p>
+      <div class="logs_wrap"> 
+        <!-- 로그인 영역 -->
+        <div class="login_area">
+          <form name="login">
+            <div class="logs">
+              <label for="id"><img src="img/id_icon.png" style="padding-top:17px;" alt=""/></label>
+              <input type="text" name="id" id="id">
+            </div>
+            <div class="logs">
+              <label for="pw"><img src="img/pw_icon.png" style="padding-top:17px;" alt=""/></label>
+              <input type="password" name="pw" id="pw">
+            </div>
+            <a href="#!" class="the_login">로그인</a>
+          </form>
+        </div>
+        <!-- 로그인 영역 끝 --> 
+        <!-- 회원가입/계정찾기 영역 -->
+        <ul class="mem_find">
+          <li>
+            <p class="mem_txt">아직 회원이 아니신가요?</p>
+            <a class="mem_btn" href="join.html">회원가입</a></li>
+          <li>
+            <p class="mem_txt">아이디 / 비밀번호를 분실하셨나요?</p>
+            <a class="mem_btn" href="idpwfind.html">아아디 / 비밀번호찾기</a></li>
+        </ul>
+        <!-- 회원가입/계정찾기 영역 끝--> 
+      </div>
+    </div>
+    <!-- 로그인 끝 --> 
+    
+  </div>
+</div>
+<!-- 내용 끝 --> 
+<? include "../inc/footer.html"; ?>

@@ -1,0 +1,42 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 시작 -->
+<div class="contents">
+  <div class="sub_top">
+    <h2>
+      <p class="bh2">고객센터</p>
+    </h2>
+  </div>
+    <!-- 서브 탭 --> 
+  <? include "subtabs.html"; ?>
+   <script>
+   $(document).ready(function(e) {
+    $(".tabs > li").eq(3).addClass("on");    
+});
+  </script>
+  <!-- 서브 탭 끝 --> 
+<div class="center_box sub_cont">
+    <!-- 게시판 시작 -->
+        <link rel="stylesheet" type="text/css" href="../css/board.css" />
+      <div class="board_wrap"> 
+        <!-- 게시물 영역 -->
+        <div class="board_view">
+         <div class="pw_input">
+              <p class="pw_title">비밀번호를 입력하세요.</p>
+              <form name="pw_area">
+              <input type="password" id="boardpw">
+              <ul class="pw_btns">
+               <li class="pwsubmit"><a href="#!">확인</a></li>
+               <li class="cancle"><a href="#!">취소</a></li>
+               </ul>
+              </form>
+               </div>
+        </div>
+        <!-- 게시물 끝 -->
+         <div class="board_liast"><a href="sub04.html">목록</a></div>
+      </div>
+      <!-- 게시판 끝 --> 
+
+</div>
+</div>
+<!-- 내용 끝 --> 
+<? include "../inc/footer.html"; ?>
