@@ -1,17 +1,18 @@
-<script>
-function includeHTML() { var z, i, elmnt, file, xhttp; z = document.getElementsByTagName("*"); for (i = 0; i < z.length; i++) { elmnt = z[i]; file = elmnt.getAttribute("../inc/header.html"); if (file) { xhttp = new XMLHttpRequest(); xhttp.onreadystatechange = function() { if (this.readyState == 4 && this.status == 200) { elmnt.innerHTML = this.responseText; elmnt.removeAttribute("../inc/header.html"); includeHTML();
-} } 
-xhttp.open("GET", file, true); 
-xhttp.send();
- return; 
-} 
-} 
-}
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">   
+$(document).ready( function() { 
 
+$("#header").load("../inc/header.html");  // 원하는 파일 경로를 삽입하면 된다
+$("#footer").load("../inc/footer.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
 
+}); 
 </script>
-<script>includeHTML();</script>
-<div include-html="../inc/header.html"></div>
+
+
+
+<div id="header">
+
+</div>
 <!-- 내용 시작 -->
 <div class="contents">
   <div class="sub_top">
@@ -158,5 +159,8 @@ xhttp.send();
   <!-- 좌측 끝 --> 
   <!--  환자를 가족처럼 끝 --> 
 </div>
-<!-- 내용 끝 --> 
+<!-- 내용 끝 --> <br>
+<div id="footer">
+
+</div>
 <? include "../inc/footer.html"; ?>
