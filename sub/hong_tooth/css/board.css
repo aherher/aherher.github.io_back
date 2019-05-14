@@ -1,4 +1,4 @@
-@charset "euc-kr";
+@charset "utf-8";
 /* CSS Document */ 
 ul { list-style:none;}
 table, caption, tbody, tfoot, thead, tr, th, td, p
@@ -36,7 +36,7 @@ table, caption, tbody, tfoot, thead, tr, th, td, p
 .board_scrBtn {height:35px; line-height:35px; color:#fff; background-color:#282828; display:inline-block; vertical-align:top; width:70px; text-align:center; font-size:15px;}
 .board_scrBtn:hover {color:#fff;}
 
-/*∞‘Ω√π∞ ∫∏±‚ ∆‰¿Ã¡ˆ*/
+/*Í≤åÏãúÎ¨º Î≥¥Í∏∞ ÌéòÏù¥ÏßÄ*/
 .read_top {height:80px; border-top:2px solid #333; border-bottom:1px solid #ddd; position:relative; padding:0 15px; box-sizing:border-box;}
 .read_top .read_title {font-size:20px; font-weight:500; line-height:80px;}
 .read_top .indate {position:absolute; right:15px; top:30px; font-size:14px; color:#999;}
@@ -49,7 +49,7 @@ table, caption, tbody, tfoot, thead, tr, th, td, p
 .board_liast {margin-top:45px; float:right; text-align:center; width:120px; height:50px; background-color:#999;}
 .board_liast a {color:#fff; line-height:50px; font-size:16px; display:block; width:100%; height:100%; text-align:center;}
 
-/*æ≤±‚∆‰¿Ã¡ˆ*/
+/*Ïì∞Í∏∞ÌéòÏù¥ÏßÄ*/
 .the_write {width:100%;  border-top:2px solid #333;}
 .the_write tr th, .the_write tr td {color:#333; font-size:15px; border-bottom:1px solid #ddd;}
 .the_write tr td {padding:15px 10px;}
@@ -81,7 +81,7 @@ table, caption, tbody, tfoot, thead, tr, th, td, p
 #not_check {vertical-align:middle;}
 .chk_lab {vertical-align:bottom;}
 
-/*∞∂∑Ø∏Æ*/
+/*Í∞§Îü¨Î¶¨*/
 .gallboard_wrap {overflow:hidden; width:100%; margin:0 auto;}
 .gallboard_wrap li {float:left; width:236px; border:1px solid #ddd; margin:0 25px 25px 0; padding:10px; box-sizing:border-box; position:relative;} 
 .gallboard_wrap li:nth-of-type(4n) {margin-right:0;}

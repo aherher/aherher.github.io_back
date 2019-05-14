@@ -1,4 +1,4 @@
-@charset "euc-kr";
+@charset "utf-8";
 
 /* reset style [start] */
 html, body, div, span, object, iframe,
@@ -10,17 +10,17 @@ b, u, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend, 
 table, caption, tbody, tfoot, thead, tr, th, td 
-{margin: 0; padding: 0;	border:0; border-collapse:collapse;} /* vertical-align: baseline; outline: 0; ie ¿Ü ºê¶ó¿ìÀú Æ÷Ä¿½Ì »ç¶óÁö´Â ¹®Á¦·Î Á¦°Å */
+{margin: 0; padding: 0;	border:0; border-collapse:collapse;} /* vertical-align: baseline; outline: 0; ie ì™¸ ë¸Œë¼ìš°ì € í¬ì»¤ì‹± ì‚¬ë¼ì§€ëŠ” ë¬¸ì œë¡œ ì œê±° */
 img {vertical-align:middle;}
-body {line-height:1; font-family: 'º»°íµñ', Noto Sans Korean, 'Noto Sans Korean', sans-serif; font-style:normal; word-break:keep-all; color:#333; font-weight:400;}
-input, textarea, select, button {font-family: 'º»°íµñ', Noto Sans Korean, 'Noto Sans Korean', sans-serif !important; font-style:normal; font-weight:400;}
+body {line-height:1; font-family: 'ë³¸ê³ ë”•', Noto Sans Korean, 'Noto Sans Korean', sans-serif; font-style:normal; word-break:keep-all; color:#333; font-weight:400;}
+input, textarea, select, button {font-family: 'ë³¸ê³ ë”•', Noto Sans Korean, 'Noto Sans Korean', sans-serif !important; font-style:normal; font-weight:400;}
 ol, ul, li {list-style: none;}
 blockquote, q {quotes: none;}
 ins {text-decoration: none;}
 del {text-decoration: line-through;}
 button { border:none; cursor:pointer;}
 /* tables still need 'cellspacing="0"' in the markup */
-/*table {border-spacing:0;} /* border-collapse: collapse; ff¿¡¼­ border="0" ÀÎ °æ¿ì ¹®Á¦ ¹ß»ı */
+/*table {border-spacing:0;} /* border-collapse: collapse; ffì—ì„œ border="0" ì¸ ê²½ìš° ë¬¸ì œ ë°œìƒ */
 address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;} /* font-weight:normal */
 /* reset style [end] */
 .radio {margin-bottom:-2px;border:none;}
