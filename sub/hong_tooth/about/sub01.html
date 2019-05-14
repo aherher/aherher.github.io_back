@@ -1,13 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920">
+<meta name="format-detection" content="telephone=no">
+<link href='https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../css/jquery.bxslider.css" />
+<style type="text/css">
+body,td,th {
+	font-family: "본고딕", "Noto Sans Korean", "Noto Sans Korean", sans-serif;
+}
+</style>
 <script src="../js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript">   
-$(document).ready( function() { 
+<script src="../js/jquery.bxslider.js"></script>
+<title>홍윤의치과의원</title>
+</head>
 
-$("html").load("../inc/header.html");  // 원하는 파일 경로를 삽입하면 된다
-$("#footer").load("../inc/footer.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
-
-}); 
-</script>
-
+<body>
+<!-- 헤더 -->
+<div class="header_wrap">
+  <div class="head">
+    <h1><a href="../index1.html"><img src="../images/common/logo.png" alt=""/></a></h1>
+    <ul class="menu">
+      <li><a href="../about/sub01.html">홍윤의치과</a>
+        <ul class="gsub gs01">
+          <li><a href="../about/sub01.html">치의학 전문의 홍윤의</a></li>
+          <li><a href="../about/sub02.html">의료진 소개</a></li>
+          <li><a href="../about/sub03.html">둘러보기</a></li>
+          <li><a href="../about/sub04.html">진료시간/약도</a></li>
+        </ul>
+      </li>
+      <li><a href="../implant/sub01.html">임플란트</a>
+        <ul class="gsub gs02">
+          <li><a href="../implant/sub01.html">전체임플란트</a></li>
+          <li><a href="../implant/sub02.html">부분임플란트</a></li>
+          <li><a href="../implant/sub03.html">앞니임플란트</a></li>
+          <li><a href="../implant/sub04.html">틀니임플란트</a></li>
+          <li><a href="../implant/sub05.html">발치임플란트</a></li>
+        </ul>
+      </li>
+      <li><a href="../maxill/sub01.html">상악동증대술</a> </li>
+      <li><a href="../medicle/sub01.html">일반진료</a>
+        <ul class="gsub gs04">
+          <li><a href="../medicle/sub01.html">치주염치료</a></li>
+          <li><a href="../medicle/sub02.html">치관확장수술</a></li>
+          <li><a href="../medicle/sub03.html">심미적 보철치료</a></li>
+          <li><a href="../medicle/sub04.html">일반 치과치료</a></li>
+          <li><a href="../medicle/sub05.html">사랑니 치료</a></li>
+          <li><a href="../medicle/sub06.html">평생관리 프로그램</a></li>
+        </ul>
+      </li>
+      <li><a href="../customer/sub01.html">고객센터</a>
+        <ul class="gsub gs05">
+          <li><a href="../customer/sub01.html">병원소식</a></li>
+          <li><a href="../customer/sub02.html">온라인상담</a></li>
+          <li><a href="../customer/sub03.html">원장님칼럼</a></li>
+          <li><a href="../customer/sub04.html">치료전후</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="gnb">
+      <li class="yell"><a href="../member/login.html">로그인</a></li>
+      <li class="grey"><a href="../member/join.html">회원가입</a></li>
+    </ul>
+  </div>
+</div>
+<!-- 헤더 끝 --> 
 <!-- 내용 시작 -->
 <div class="contents">
   <div class="sub_top">
@@ -154,8 +213,28 @@ $("#footer").load("../inc/footer.html");  // 추가 인클루드를 원할 경�
   <!-- 좌측 끝 --> 
   <!--  환자를 가족처럼 끝 --> 
 </div>
-<!-- 내용 끝 --> <br>
-<div id="footer">
-
+<!-- 내용 끝 -->
+<!-- 퀵메뉴 -->
+<div class="quick_wrap">
+  <ul class="the_quick">
+    <li class="kakao"><a href="#!"><img src="../images/common/kakao.png" alt=""/></a></li>
+    <li><a href="#!"><img src="../images/common/blog.png" alt=""/></a></li>
+    <li><a href="#!"><img src="../images/common/face_book.png" alt=""/></a></li>
+    <li><a href="#!"><img src="../images/common/youtube.png" alt=""/></a></li>
+    <li><a href="#!"><img src="../images/common/online.png" alt=""/></a></li>
+    <li><a href="#top"><img src="../images/common/top.png" alt=""/></a></li>
+  </ul>
+  <div class="kakao_id"><img src="../images/common/kakao_find.png" alt=""/></div>
 </div>
-<? include "../inc/footer.html"; ?>
+<!-- 퀵메뉴 끝 --> 
+<!-- 푸터 -->
+<div class="footer_wrap sub_foot">
+  <div class="foot">
+    <p class="foot_info"><span>홍윤의 치과의원</span><span>서울 마포구 연남동 254-2 현대빌딩 2층</span><span>TEL. 1644-1111</span><span class="fax">FAX. 02-111-1111</span><span class="buss_numb">사업자등록번호. 111-11-11111</span></p>
+    <p class="copy">COPYRIGHTⓒ홍윤의치과의원. ALL RIGHTS RESERVED.</p>
+  </div>
+</div>
+<!-- 푸터 끝 --> 
+<script src="../js/layout.js"></script>
+</body>
+</html>
