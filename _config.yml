@@ -109,8 +109,8 @@ author:
   bio              : "I am an amazing person."
   location         : "Somewhere"
   email            : "123"
-  website            : "123"
-  links:
+  website          : "123"
+  links: "Website"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
