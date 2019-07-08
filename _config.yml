@@ -1,23 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@aherher 
-4,975
-113
-5,315 9,133 mmistakes/minimal-mistakes
- Code  Issues 17  Pull requests 1  Projects 0  Security  Insights
-minimal-mistakes/_config.yml
-@mmistakes mmistakes Remove Google+
-59111d1 on 6 Mar
-@mmistakes @ohadschn @Pradhyo @yihangho @LoveMeWithoutAll @YuyingWu @westes @vlajos @tony-ho @rriemann @nickgarlis @maxheld83 @maxime-michel @matiasfrndz @kennonkwok @jeremyvoltz @thoemmi @hbarudin @rschaerer @gabor-meszaros @00-Evan @cdodd @4brunu
-296 lines (268 sloc)  8.48 KB
-    
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -44,12 +24,10 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -61,7 +39,6 @@ comments:
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -313,15 +290,3 @@ defaults:
       comments: # true
       share: true
       related: true
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
