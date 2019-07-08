@@ -104,12 +104,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "123"
-  avatar           : "waterhole_img1.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            : "123"
-  website          : "123"
+  name             :"123"
+  avatar           :"waterhole_img1.jpg"
+  bio              :"I am an amazing person."
+  location         :"Somewhere"
+  email            :"123"
+  website          :"123"
   links: "Website"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
